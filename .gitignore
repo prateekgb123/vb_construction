@@ -7,14 +7,14 @@
 # =========================
 # BACKEND
 # =========================
-backend/node_modules/
-backend/.env
+server/node_modules/
+server/.env
 
 # =========================
 # FRONTEND
 # =========================
-frontend/node_modules/
-frontend/build/
+client/node_modules/
+client/build/
 
 # =========================
 # LOG FILES
