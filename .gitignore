@@ -1,0 +1,45 @@
+# =========================
+# ROOT LEVEL
+# =========================
+.env
+.env.*
+
+# =========================
+# BACKEND
+# =========================
+backend/node_modules/
+backend/.env
+
+# =========================
+# FRONTEND
+# =========================
+frontend/node_modules/
+frontend/build/
+
+# =========================
+# LOG FILES
+# =========================
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
+# OS FILES
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE FILES
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# MISC
+# =========================
+uploads/
+temp/
+.cache/
+coverage/
