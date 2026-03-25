@@ -7,7 +7,7 @@ export default function Hero() {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
 
   useEffect(() => {
-    axios.get("http://localhost:5000/api/media")
+    axios.get("https://vb-construction.onrender.com/api/media")
       .then(res => setData(res.data));
 
     const handleResize = () => {
