@@ -1,0 +1,24 @@
+/* 🔥 RESET DEFAULT STYLES */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 🔥 REMOVE DEFAULT BODY GAP */
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* prevents horizontal scroll */
+  font-family: Arial, sans-serif;
+}
+
+/* REMOVE OLD REACT STYLES */
+.App {
+  text-align: left;
+}
+
+/* OPTIONAL SMOOTH SCROLL */
+html {
+  scroll-behavior: smooth;
+}

@@ -1,0 +1,29 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  overflow-x: hidden;
+}
+
+/* 🔥 REMOVE GLOBAL SECTION STYLES */
+section {
+  padding: 60px 20px;
+}
+
+/* 🔥 EXCEPTION FOR HERO (NO PADDING) */
+#home {
+  padding: 0 !important;
+}
+
+/* HEADINGS */
+h2 {
+  margin-bottom: 30px;
+}
