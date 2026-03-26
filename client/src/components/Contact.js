@@ -14,7 +14,7 @@ export default function Contact() {
   }, []);
 
   const handleSubmit = async () => {
-    await axios.post("https://vb-construction.onrender.com/api/contact", form);
+    await axios.post("http://localhost:5000/api/contact", form);
     alert("Message Sent");
   };
 
