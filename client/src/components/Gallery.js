@@ -8,7 +8,7 @@ export default function Gallery() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/api/media")
+      .get("https://vb-construction-backend.onrender.com/api/media")
       .then((res) => {
         setData(res.data);
         setLoading(false);
