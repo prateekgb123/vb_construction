@@ -64,7 +64,9 @@ export default function About() {
             <div
               style={{
                 ...styles.stats,
-                flexDirection: isMobile ? "column" : "row",
+                flexDirection: "row", // always row
+                justifyContent: "space-between",
+                textAlign: "center",
               }}
             >
               <div>
@@ -213,12 +215,13 @@ const styles = {
     marginBottom: "14px",
   },
 
-  stats: {
-    display: "flex",
-    gap: "40px",
-    marginTop: "25px",
-    fontWeight: "bold",
-  },
+stats: {
+  display: "flex",
+  justifyContent: "space-between",
+  gap: "10px",
+  marginTop: "25px",
+  fontWeight: "bold",
+},
 
   extraSection: {
     marginTop: "25px",
